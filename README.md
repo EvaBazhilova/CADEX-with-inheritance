@@ -30,8 +30,8 @@ smallest radius, the last - the greatest.
 - Information (type and parameters) about all created curves from the first container, 
 - Points and first derivative of all curves from the first container at t = PI/4
 (x1, y1, z1) - coordinates of 3D point t = PI/4 and (x2, y2, z2) - coordinates of 3D vector of first derivative at t = PI/4
-- Info about only circles from the first container (included in the second container, not sorted)
-- Info about circles from the sorted second container
+- Information about only circles from the first container (included in the second container, not sorted)
+- Information about circles from the sorted second container
 - Total sum of circles raduii
 
 *out.txt* consists of all 3D Points of all curves. It is made for drawing these curves.\
