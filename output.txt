@@ -1,0 +1,53 @@
+    Info about all curves
+Circle with radius 66.2008
+Helix with parameters 97.6073 6.21357
+Circle with radius 99.8016
+Circle with radius 58.2629
+Circle with radius 11.6459
+Circle with radius 72.0878
+Circle with radius 48.7289
+Ellipse with parameters 48.5214 63.8997
+Circle with radius 64.8946
+Circle with radius 56.56
+Circle with radius 99.7833
+Helix with parameters 17.362 39.8389
+Ellipse with parameters 19.8584 28.4555
+Ellipse with parameters 60.3595 72.9881
+Helix with parameters 47.6974 34.1197
+    Points and first derivative of all curves at t = PI/4
+46.8109998 46.8109998 0 -46.8109998 46.8109998 0
+69.0188183 69.0188183 0.776696066 -69.0188183 69.0188183 0.988920146
+70.5704091 70.5704091 0 -70.5704091 70.5704091 0
+41.1980821 41.1980821 0 -41.1980821 41.1980821 0
+8.23486885 8.23486885 0 -8.23486885 8.23486885 0
+50.9737519 50.9737519 0 -50.9737519 50.9737519 0
+34.4565385 34.4565385 0 -34.4565385 34.4565385 0
+34.3097956 45.1838795 0 -34.3097956 45.1838795 0
+45.8873824 45.8873824 0 -45.8873824 45.8873824 0
+39.9939267 39.9939267 0 -39.9939267 39.9939267 0
+70.5574612 70.5574612 0 -70.5574612 70.5574612 0
+12.2767738 12.2767738 4.97985778 -12.2767738 12.2767738 6.34055186
+14.0420051 20.1210475 0 -14.0420051 20.1210475 0
+42.6806174 51.6103573 0 -42.6806174 51.6103573 0
+33.7271398 33.7271398 4.2649617 -33.7271398 33.7271398 5.43031789
+    Info about only circles
+Circle with radius 66.2007508
+Circle with radius 99.8016297
+Circle with radius 58.2628864
+Circle with radius 11.6458632
+Circle with radius 72.0877712
+Circle with radius 48.7289041
+Circle with radius 64.8945585
+Circle with radius 56.5599536
+Circle with radius 99.7833186
+    Info about sorted circles
+Circle with radius 11.6458632
+Circle with radius 48.7289041
+Circle with radius 56.5599536
+Circle with radius 58.2628864
+Circle with radius 64.8945585
+Circle with radius 66.2007508
+Circle with radius 72.0877712
+Circle with radius 99.7833186
+Circle with radius 99.8016297
+    Total sum of circles raduii 577.965636

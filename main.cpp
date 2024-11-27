@@ -4,13 +4,13 @@
 #include <iostream>
 #include <memory>
 
-
 #include "biblio.h"
 #include "test.h"
 
 void GenerateRandomCurves(Curves &curves)
 {
     std::srand(static_cast<unsigned int>(std::time(0)));
+
     int curves_count = rand() % (20);
     for (int i = 0; i < curves_count; ++i)
     {
@@ -72,4 +72,5 @@ int main()
 
     out << "    Total sum of circles raduii " << curves.ComputeTotalRadiusSum() << std::endl;
     out.close();
+
 }

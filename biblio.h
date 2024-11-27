@@ -60,6 +60,8 @@ class Curve
 public:
     Curve() = default;
 
+    virtual void Print(std::ostream &out) = 0;
+
     virtual Point GetPoint(double t) = 0;
     virtual Point GetDerivative(double t) = 0;
     virtual Type GetType() const = 0;
@@ -92,7 +94,7 @@ public:
 
     double GetRadius() const;
 
-    void Print(std::ostream &out);
+    void Print(std::ostream &out) override;
 
     Point GetPoint(double t) override;
     Point GetDerivative(double t) override;
@@ -126,7 +128,7 @@ public:
 
     std::pair<double, double> GetParameters() const;
 
-    void Print(std::ostream &out);
+    void Print(std::ostream &out) override;
 
     Point GetPoint(double t) override;
     Point GetDerivative(double t) override;
@@ -162,7 +164,7 @@ public:
 
     std::pair<double, double> GetParameters() const;
 
-    void Print(std::ostream &out);
+    void Print(std::ostream &out) override;
 
     Point GetPoint(double t) override;
     Point GetDerivative(double t) override;
