@@ -24,15 +24,15 @@ smallest radius, the last - the greatest.
 6. The code must compile with any compiler of your choice (gcc, Visual C++, etc).
 
 # Short description of attached files:
-    biblio (biblio.h, biblio.cpp) is the library to support 3D curves hierarchy with virtual methods
-    test (test.h, test.cpp) consists of some tests to check biblio library
-    output.txt is the result of main.cpp. It contains
--Information (type and parameters) about all created curves from the first container, \
--Points and first derivative of all curves from the first container at t = PI/4\
-(x1, y1, z1) - coordinates of 3D point t = PI/4 and (x2, y2, z2) - coordinates of 3D vector of first derivative at t = PI/4\
--Info about only circles from the first container (included in the second container, not sorted)\
--Info about circles from the sorted second container\
--Total sum of circles raduii\
-    out.txt consists of all 3D Points of all curves. It is made for drawing these curves.\
-    fugs_final.jpg - picture of all curves of example.\
+    *biblio* (biblio.h, biblio.cpp) is the library to support 3D curves hierarchy with virtual methods\
+    *test* (test.h, test.cpp) consists of some tests to check biblio library\
+    *output.txt* is the result of main.cpp. It contains\
+        - Information (type and parameters) about all created curves from the first container, \
+        - Points and first derivative of all curves from the first container at t = PI/4\
+        (x1, y1, z1) - coordinates of 3D point t = PI/4 and (x2, y2, z2) - coordinates of 3D vector of first derivative at t = PI/4\
+        - Info about only circles from the first container (included in the second container, not sorted)\
+        - Info about circles from the sorted second container\
+        - Total sum of circles raduii\
+    *out.txt* consists of all 3D Points of all curves. It is made for drawing these curves.\
+    *figs_final.jpg* - picture of all curves of example.\
 
